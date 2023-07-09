@@ -2,13 +2,7 @@
 //
 // GPL v3
 
-@Grab(group='io.github.egonw.bacting', module='managers-rdf', version='0.3.4')
-@Grab(group='io.github.egonw.bacting', module='managers-ui', version='0.3.4')
-
 import groovy.json.JsonSlurper
-
-bioclipse = new net.bioclipse.managers.BioclipseManager(".")
-rdf = new net.bioclipse.managers.RDFManager(".")
 
 def jsonSlurper = new JsonSlurper()
 jsonContent = new File("toxicology.json").text
