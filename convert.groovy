@@ -26,7 +26,6 @@ println ""
 
 for (record in records) {
   println "<${record.attributes.url}> a sbd:Database ;"
-  println "  dc:source <https://fairsharing.org/> ;"
   if (record.attributes.metadata.name != null)
     println "  rdfs:label \"${record.attributes.metadata.name}\"@en ;"
   if (record.attributes.metadata.description != null)
@@ -36,5 +35,6 @@ for (record in records) {
   if (record.attributes.licence_links != null && record.attributes.licence_links[0] != null) {
     println "  dct:license <${record.attributes.licence_links[0].licence_url}> ;"
   }
+  println "  dc:source <https://fairsharing.org/> ."
   println ""
 }
