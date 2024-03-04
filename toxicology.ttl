@@ -27,10 +27,10 @@
   dct:license <https://www.epa.gov/web-policies-and-procedures/epa-disclaimers> ;
   dc:source <https://fairsharing.org/> .
 
-<https://fairsharing.org/fairsharing_records/3496> a sbd:Database ;
-  rdfs:label "Toxicology"@en ;
-  dc:description "Collection of FAIR resources related to Toxicology."@en ;
-  foaf:page "https://github.com/elixir-europe/toxicology-community"@en ;
+<https://fairsharing.org/fairsharing_records/5246> a sbd:Database ;
+  rdfs:label "Taylor & Francis - Evidence-Based Toxicology - Instructions for authors"@en ;
+  dc:description "Data policy and author guidance for Evidence-Based Toxicology by Taylor & Francis. Evidence-Based Toxicology is a gold open-access journal that publishes manuscripts utilising or advancing evidence-based methods in the toxicological and human environmental health sciences. It is the official journal of the Evidence-Based Toxicology Collaboration. Journals adhering to this policy recommend 1) the resources listed directly within this record, and 2) all resources listed in this record's parent policies (see the "extends" relationship). "@en ;
+  foaf:page "https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=tebt20"@en ;
   dc:source <https://fairsharing.org/> .
 
 <https://fairsharing.org/10.25504/FAIRsharing.wYScsE> a sbd:Database ;
@@ -39,11 +39,10 @@
   foaf:page "https://github.com/zacharewskilab/MIATE"@en ;
   dc:source <https://fairsharing.org/> .
 
-<https://fairsharing.org/fairsharing_records/2973> a sbd:Database ;
-  rdfs:label "Chromium Epigenomics Toxicology"@en ;
-  dc:description "The Chromium Epigenomics Toxicology (EpiCrDB) database contains a variety of epigenomics experimental assays relating to research on how Cr(VI) perturbs chromatin organization and dynamics. This data is used in reseach into how its toxicity may be attributed to epigenetic carcinogenicity. Manually-annotated sample and experiment metadata is included to facilitate FAIR data access. Hexavalent chromium [Cr(VI)] compounds are well-established respiratory carcinogens utilized in industrial processes. While inhalation exposure constitutes an occupational risk affecting mostly chromium workers, environmental exposure from drinking water contamination is a widespread gastrointestinal carcinogen, affecting millions of people throughout the world. The mechanism of action of Cr(VI) at the molecular level is poorly understood."@en ;
-  foaf:page "http://epichromium.org"@en ;
-  dct:license <http://opendatacommons.org/licenses/pddl/1.0/> ;
+<https://fairsharing.org/fairsharing_records/3496> a sbd:Database ;
+  rdfs:label "ELIXIR Toxicology Community"@en ;
+  dc:description "Collection of FAIR resources related to Toxicology."@en ;
+  foaf:page "https://elixir-europe.org/communities/toxicology"@en ;
   dc:source <https://fairsharing.org/> .
 
 <https://fairsharing.org/10.25504/FAIRsharing.bca16f> a sbd:Database ;
@@ -59,22 +58,36 @@
   foaf:page "https://www.efsa.europa.eu/en/microstrategy/openfoodtox"@en ;
   dc:source <https://fairsharing.org/> .
 
+<https://fairsharing.org/fairsharing_records/2973> a sbd:Database ;
+  rdfs:label "Chromium Epigenomics Toxicology"@en ;
+  dc:description "The Chromium Epigenomics Toxicology (EpiCrDB) database contains a variety of epigenomics experimental assays relating to research on how Cr(VI) perturbs chromatin organization and dynamics. This data is used in reseach into how its toxicity may be attributed to epigenetic carcinogenicity. Manually-annotated sample and experiment metadata is included to facilitate FAIR data access. Hexavalent chromium [Cr(VI)] compounds are well-established respiratory carcinogens utilized in industrial processes. While inhalation exposure constitutes an occupational risk affecting mostly chromium workers, environmental exposure from drinking water contamination is a widespread gastrointestinal carcinogen, affecting millions of people throughout the world. The mechanism of action of Cr(VI) at the molecular level is poorly understood."@en ;
+  foaf:page "http://epichromium.org"@en ;
+  dct:license <http://opendatacommons.org/licenses/pddl/1.0/> ;
+  dc:source <https://fairsharing.org/> .
+
 <https://fairsharing.org/10.25504/FAIRsharing.ntv8pe> a sbd:Database ;
   rdfs:label "Chemical Effects in Biological Systems"@en ;
   dc:description "The Chemical Effects in Biological Systems (CEBS) database houses data of interest to environmental health scientists. CEBS is a public resource, and has received depositions of data from academic, industrial, and governmental laboratories."@en ;
   foaf:page "https://doi.org/10.22427/NTP-DATA-1"@en ;
   dc:source <https://fairsharing.org/> .
 
-<https://fairsharing.org/10.25504/FAIRsharing.emw61v> a sbd:Database ;
-  rdfs:label "Toxicology Data Markup Language"@en ;
-  dc:description "ToxML is an open data exchange standard that allows the representation and communication of toxicological and related data in a well-structured electronic format. The status of this format is uncertain as the homepage is no longer accessible. "@en ;
-  foaf:page "http://toxml.org"@en ;
-  dc:source <https://fairsharing.org/> .
-
 <https://fairsharing.org/10.25504/FAIRsharing.jgbxr> a sbd:Database ;
   rdfs:label "Tox Biology Checklist"@en ;
   dc:description "The Tox Biology Checklist was created to describe information that should be included with data derived from a biological study. The exact details of the checklist information depend on the study design and the nature of the subjects used in the study.  In broad terms, this checklist recognizes that study data can be best interpreted in context of the subject characteristics, the conditions used to treat or collect the subjects, the conditions of care and disposition, and the timeline of study execution. Please note: We cannot find an up-to-date website or official reporting guideline document for this resource. As such, we have marked its status as Uncertain. Please contact us if you have any information on the current status of this resource."@en ;
   foaf:page "http://mibbi.sf.net/projects/TBC.shtml"@en ;
+  dc:source <https://fairsharing.org/> .
+
+<https://fairsharing.org/10.25504/FAIRsharing.6b77ac> a sbd:Database ;
+  rdfs:label "Environmental Conditions, Treatments, and exposures Ontology"@en ;
+  dc:description "The Environmental Conditions, Treatments, and Exposures Ontology (ECTO) is a species-agnostic ontology focused on exposure events that occur as a result of natural and experimental processes, such as diet, work, or research activities."@en ;
+  foaf:page "https://github.com/EnvironmentOntology/environmental-exposure-ontology"@en ;
+  dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:source <https://fairsharing.org/> .
+
+<https://fairsharing.org/10.25504/FAIRsharing.emw61v> a sbd:Database ;
+  rdfs:label "Toxicology Data Markup Language"@en ;
+  dc:description "ToxML is an open data exchange standard that allows the representation and communication of toxicological and related data in a well-structured electronic format. The status of this format is uncertain as the homepage is no longer accessible. "@en ;
+  foaf:page "http://toxml.org"@en ;
   dc:source <https://fairsharing.org/> .
 
 <https://fairsharing.org/10.25504/FAIRsharing.r18yt0> a sbd:Database ;
@@ -96,7 +109,7 @@
   foaf:page "http://exposome-explorer.iarc.fr/"@en ;
   dc:source <https://fairsharing.org/> .
 
-<https://fairsharing.org/fairsharing_records/4723> a sbd:Database ;
+<https://fairsharing.org/10.25504/FAIRsharing.68a369> a sbd:Database ;
   rdfs:label "The Blood Exposome Database"@en ;
   dc:description "The exposome represents the sum of all exposures during the life-span of an organism (from chemicals to microbes, viruses, radiation and other sources). Exposome chemicals are a major component of the exposome and are known to alter activities of cellular pathways and structures. In humans, exposome chemicals are transported throughout the body, linking chemical exposures to phenotypes such as such as cancer, ageing or diabetes. The Blood Exposome DB is a collection of chemical compounds and associated information that were automatically extracted by text mining the content of PubMed and PubChem databases. The database also unifies chemical lists from metabolomics, systems biology, environmental epidemiology, occupational expossure, toxiology and nutrition fields."@en ;
   foaf:page "http://bloodexposome.org/"@en ;
@@ -135,6 +148,14 @@
   foaf:page "http://www.psidev.info/miabe"@en ;
   dc:source <https://fairsharing.org/> .
 
+<https://fairsharing.org/fairsharing_records/5228> a sbd:Database ;
+  rdfs:label "Minimum Information Table for the Safety of Engineered Nanomaterials"@en ;
+  dc:description "This study aimed to the identification of appropriate description standards and quality criteria for nanosafety. Several standards and guidelines exist but most of them are incomplete or not specifcally designed for engineered nanomaterials (ENM) research. A basic catalogue of descriptive information and quality criteria was generated. In an iterative process, our interdisciplinary team identifed deficits and added missing information into a comprehensive schema. This overview was evaluated by a panel of experts during a workshop. This whole process resulted in a minimum information table (MIT), specifying necessary minimum information to be provided along with experimental results on effects of ENMs in the biological context. 
+The MIT is divided into six modules: general information, material information, biological model information, exposure information, endpoint read out information and analysis and statistics. These modules are further partitioned into module subdivisions serving to include more detailed information. A comparison with existing ontologies, which also aim to electronically collect data and metadata on nanosafety studies, showed that the newly developed MIT exhibits a higher level of detail compared to those existing schemas, making it more usable to prevent gaps in the communication of information"@en ;
+  foaf:page "https://particleandfibretoxicology.biomedcentral.com/articles/10.1186/s12989-021-00442-x"@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+  dc:source <https://fairsharing.org/> .
+
 <https://fairsharing.org/10.25504/FAIRsharing.tfj7gt> a sbd:Database ;
   rdfs:label "EPA Comptox Chemicals Dashboard"@en ;
   dc:description "The foundation of chemical safety testing relies on chemistry information such as high-quality chemical structures and physical chemical properties. This information is used by scientists to predict the potential health risks of chemicals. The Dashboard is part of a suite of dashboards developed by EPA to help evaluate the safety of chemicals. It provides access to a variety of information on over 700,000 chemicals currently in use. Within the Dashboard, users can access chemical structures, experimental and predicted physicochemical and toxicity data, and additional links to relevant websites and applications. It maps curated physicochemical property data associated with chemical substances to their corresponding chemical structures. These data are compiled from sources including the EPA’s computational toxicology research databases, and public domain databases such as the National Center for Biotechnology Information’s PubChem database."@en ;
@@ -152,25 +173,5 @@
   dc:description "National Center for Advancing Translational Sciences (NCATS) OpenData Portal development aims to share COVID-19-related drug repurposing data and experiments for all approved drugs. The NCATS OpenData COVID-19 portal is a resource designed for rapid and open sharing of SARS-CoV-2 screening data and assay information for the global health community, measuring over 10,000 compound related assays including the NCATS Pharmaceutical Collection of nearly 3,000 approved drugs. This research was supported by the National Center for Advancing Translational Sciences (NCATS) Intramural Research Program of the NIH, aimed to enable researchers with the resources needed to formulate and test hypotheses, prioritize research opportunities, and efficiently search for effective therapies against viral and disease exposures. "@en ;
   foaf:page "https://opendata.ncats.nih.gov/covid19/"@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/> ;
-  dc:source <https://fairsharing.org/> .
-
-<https://fairsharing.org/fairsharing_records/2604> a sbd:Database ;
-  rdfs:label "Open Toxicogenomics Project-Genomics Assisted Toxicity Evaluation system"@en ;
-  dc:description "Open TG-GATEs is a public toxicogenomics database developed so that a wider community of researchers could utilize the fruits of TGP and TGP2 research. This database provides public access to data on 170 of the compounds catalogued in TG-GATEs. Data searching can be refined using either the name of a compound or the pathological findings by organ as the starting point. Gene expression data linked to phenotype data in pathology findings can also be downloaded as a CEL(*)file."@en ;
-  foaf:page "http://toxico.nibiohn.go.jp/english/"@en ;
-  dct:license <http://toxico.nibiohn.go.jp/english/agreement.html> ;
-  dc:source <https://fairsharing.org/> .
-
-<https://fairsharing.org/10.25504/FAIRsharing.de533c> a sbd:Database ;
-  rdfs:label "Translational Data Catalog"@en ;
-  dc:description "The Translational Data Catalog is a collection of project-level metadata from large research initiatives such as IMI and H2020 in a diverse range of fields, including clinical, molecular and observational studies. Its aim is to improve the findability of these projects following FAIR data principles. The Data Catalog uses a variety of web-based software to enable remote, interactive data-mining such that important metadata and summaries of curated studies can be displayed. "@en ;
-  foaf:page "https://datacatalog.elixir-luxembourg.org/"@en ;
-  dct:license <https://creativecommons.org/licenses/by-nc-sa/4.0/> ;
-  dc:source <https://fairsharing.org/> .
-
-<https://fairsharing.org/10.25504/FAIRsharing.zrmjr7> a sbd:Database ;
-  rdfs:label "Minimum Information about an array-based toxicogenomics experiment"@en ;
-  dc:description "MIAME/Tox was developed to extend MIAME for array-based toxicogenomics experiments."@en ;
-  foaf:page "http://mibbi.sourceforge.net/projects/MIAME-Tox.shtml"@en ;
   dc:source <https://fairsharing.org/> .
 
