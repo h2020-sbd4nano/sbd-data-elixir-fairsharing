@@ -4,7 +4,9 @@
 
 This repository converts [FAIRsharing](https://fairsharing.org/) content
 to SbD4Nano landscape data. The followin instructions use the
-[FAIRSharing API](https://fairsharing.org/API_doc).
+[FAIRSharing API](https://fairsharing.org/API_doc). The 
+[ELIXIR Toxicology Community](https://elixir-europe.org/communities/toxicology), in collaboration with FAIRsharing, maintains the
+[FAIRSharing Toxicology](https://fairsharing.org/3496) collection.
 
 # Update protocol
 
@@ -44,3 +46,4 @@ groovy convert.groovy > toxicology.ttl
 # References
 
 * Sansone, SA., McQuilton, P., Rocca-Serra, P. et al. FAIRsharing as a community approach to standards, repositories and policies. Nat Biotechnol 37, 358–367 (2019). [https://doi.org/10.1038/s41587-019-0080-8](https://doi.org/10.1038/s41587-019-0080-8)
+* Martens, M. et al. ELIXIR and Toxicology: a community in development. F1000Research 10(ELIXIR):1129 (2023). [https://doi.org/10.12688/f1000research.74502.2](https://doi.org/10.12688/f1000research.74502.2)
