@@ -6,7 +6,9 @@ This repository converts [FAIRsharing](https://fairsharing.org/) content
 to SbD4Nano landscape data. The followin instructions use the
 [FAIRSharing API](https://fairsharing.org/API_doc).
 
-# Step 1: login
+# Update protocol
+
+## Step 1: login
 
 Copy the `login.json` to `login_private.json` and add your account info. Then run:
 
@@ -17,7 +19,7 @@ curl --location --request POST 'https://api.fairsharing.org/users/sign_in' \
   --data '@login_private.json'
 ```
 
-# Step 2: Search for toxicology-related records
+## Step 2: Search for toxicology-related records
 
 This returns a JSON file with embeded a string for your `jwt`. This you use to replace `$JWT` in the
 next command:
@@ -33,8 +35,12 @@ curl --location --request POST 'https://api.fairsharing.org/search/fairsharing_r
 This creates a `toxicology.json` file under the [CC-BY-SA](https://fairsharing.org/licence)
 license and can be converted into landscape content.
 
-# Step 3: Convert the results to landscape content
+## Step 3: Convert the results to landscape content
 
 ```shell
 groovy convert.groovy > toxicology.ttl
 ```
+
+# References
+
+* Sansone, SA., McQuilton, P., Rocca-Serra, P. et al. FAIRsharing as a community approach to standards, repositories and policies. Nat Biotechnol 37, 358–367 (2019). [https://doi.org/10.1038/s41587-019-0080-8](https://doi.org/10.1038/s41587-019-0080-8)
