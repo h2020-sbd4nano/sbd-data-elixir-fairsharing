@@ -1,6 +1,5 @@
 # sbd-data-elixir-fairsharing
-
-<img src="https://api.fairsharing.org/img/fairsharing-attribution.svg" alt="FAIRsharing Logo">
+<img src="https://api.fairsharing.org/img/fairsharing-attribution.svg" height="80" alt="FAIRsharing Logo">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <img src="img/elixir-tox-logo.png" width="100" alt="ELIXIR Toxicology Community Logo"> 
 
 This repository converts [FAIRsharing](https://fairsharing.org/) content
 to SbD4Nano landscape data. The followin instructions use the
