@@ -16,12 +16,21 @@
         dct:license     <https://www.epa.gov/web-policies-and-procedures/epa-disclaimers>;
         foaf:page       <https://cfpub.epa.gov/ecotox/> .
 
+<https://fairsharing.org/10.25504/FAIRsharing.psn0h2>
+        rdf:type        sbd:Database;
+        rdfs:label      "Toxin and Toxin Target Database"@en;
+        dc:description  "Toxin and Toxin Target Database (T3DB)The Toxin and Toxin Target Database (T3DB) is a bioinformatics resource that combines detailed toxin data with comprehensive toxin target information. Each toxin record (ToxCard) contains over 90 data fields and holds information such as chemical properties and descriptors, toxicity values, molecular and cellular interactions, and medical information. This information has been extracted from a variety of sources, including other databases, government documents, books, and scientific literature.\n\nThe focus of the T3DB is on providing mechanisms of toxicity and target proteins for each toxin. It is also fully searchable and supports extensive text, sequence, chemical structure, and relational query searches. Potential applications of T3DB include toxin metabolism prediction, toxin/drug interaction prediction, and general toxin hazard awareness by the public, making it applicable to various fields."@en;
+        dc:source       <https://fairsharing.org/>;
+        dct:license     <http://www.t3db.ca/downloads>;
+        foaf:page       <http://www.t3db.ca/> .
+
 <https://fairsharing.org/10.25504/FAIRsharing.6hna78>
         rdf:type        sbd:Database;
         rdfs:label      "Exposure Ontology"@en;
         dc:description  "Exposure Ontology (ExO) is designed to facilitate the centralization and integration of exposure data to inform understanding of environmental health. ExO is intended to bridge the gap between exposure science and diverse environmental health disciplines including toxicology, epidemiology, disease surveillance, and epigenetics."@en;
         dc:source       <https://fairsharing.org/>;
-        foaf:page       <http://bioportal.bioontology.org/ontologies/1575> .
+        dct:license     <https://creativecommons.org/licenses/by/4.0/>;
+        foaf:page       <https://github.com/CTDbase/exposure-ontology> .
 
 <https://fairsharing.org/10.25504/FAIRsharing.9gqfpm>
         rdf:type        sbd:Database;
@@ -86,10 +95,17 @@
 
 <https://fairsharing.org/10.25504/FAIRsharing.wYScsE>
         rdf:type        sbd:Database;
-        rdfs:label      "Minimum Information about Animal Toxicology Experiments In Vivo"@en;
-        dc:description  "MIATE/invivo defines a minimum set of metadata requirements for an in vivo animal toxicology experiment and recommended ontologies. It is intended to standardize (meta)data collection for traditional in vivo toxicology study designs."@en;
+        rdfs:label      "Minimum Information about Animal Toxicology Experiments"@en;
+        dc:description  "MIATE/invivo defines a minimum set of metadata requirements for an in vivo animal toxicology experiment and recommended ontologies. It is intended to standardize (meta)data collection for traditional in vivo toxicology study designs and promote the Findable, Accessible, Interoperable, Reusable (FAIR) principles for in vivo animal toxicology experiments. MIATE aims to be a community-driven set of minimal metadata requirements for animal toxicology experiments supported by a templates, protocols, and resources to enable collection of research data in a standardized manner. "@en;
         dc:source       <https://fairsharing.org/>;
         foaf:page       <https://github.com/zacharewskilab/MIATE> .
+
+<https://fairsharing.org/fairsharing_records/5433>
+        rdf:type        sbd:Database;
+        rdfs:label      "Pesticide Properties DataBase"@en;
+        dc:description  "The PPDB is a comprehensive relational database of pesticide chemical identity, physicochemical, human health and ecotoxicological data. It has been developed by the Agriculture & Environment Research Unit (AERU) at the University of Hertfordshire for a variety of end users to support risk assessments and risk management."@en;
+        dc:source       <https://fairsharing.org/>;
+        foaf:page       <https://sitem.herts.ac.uk/aeru/ppdb/en/index.htm> .
 
 <https://fairsharing.org/10.25504/FAIRsharing.bca16f>
         rdf:type        sbd:Database;
@@ -112,15 +128,21 @@
         rdfs:label      "NanoCommons Knowledge Base"@en;
         dc:description  "The NanoCommons Knowledge Base is a data source provided by the NanoCommons project. It is based on the BioXM TM Knowledge Management Environment, developed over the last 15 years by Biomax Informatics AG and applied in multiple collaborative research projects and commercial environments. This database requires registration. NanoCommons provides a community framework and infrastructure for reproducible science and in-silico workflows for nanomaterials safety assessment"@en;
         dc:source       <https://fairsharing.org/>;
-        foaf:page       <https://www.nanocommons.eu/nanocommons-knowledge-base/> .
+        foaf:page       <https://ssl.biomax.de/nanocommons/> .
 
 <https://fairsharing.org/fairsharing_records/2973>
         rdf:type        sbd:Database;
         rdfs:label      "Chromium Epigenomics Toxicology"@en;
         dc:description  "The Chromium Epigenomics Toxicology (EpiCrDB) database contains a variety of epigenomics experimental assays relating to research on how Cr(VI) perturbs chromatin organization and dynamics. This data is used in reseach into how its toxicity may be attributed to epigenetic carcinogenicity. Manually-annotated sample and experiment metadata is included to facilitate FAIR data access. Hexavalent chromium [Cr(VI)] compounds are well-established respiratory carcinogens utilized in industrial processes. While inhalation exposure constitutes an occupational risk affecting mostly chromium workers, environmental exposure from drinking water contamination is a widespread gastrointestinal carcinogen, affecting millions of people throughout the world. The mechanism of action of Cr(VI) at the molecular level is poorly understood."@en;
         dc:source       <https://fairsharing.org/>;
-        dct:license     <http://opendatacommons.org/licenses/pddl/1.0/>;
-        foaf:page       <http://epichromium.org> .
+        foaf:page       <http://eh4.uc.edu/chromium/> .
+
+<https://fairsharing.org/fairsharing_records/5434>
+        rdf:type        sbd:Database;
+        rdfs:label      "Veterinary Substances Database"@en;
+        dc:description  "The VSDB is a comprehensive relational database of physicochemical and toxicological data for veterinary substances."@en;
+        dc:source       <https://fairsharing.org/>;
+        foaf:page       <https://sitem.herts.ac.uk/aeru/vsdb/index.htm> .
 
 <https://fairsharing.org/>
         rdf:type     void:DatasetDescription;
@@ -139,9 +161,16 @@
 <https://fairsharing.org/fairsharing_records/5246>
         rdf:type        sbd:Database;
         rdfs:label      "Taylor & Francis - Evidence-Based Toxicology - Instructions for authors"@en;
-        dc:description  "Data policy and author guidance for Evidence-Based Toxicology by Taylor & Francis. Evidence-Based Toxicology is a gold open-access journal that publishes manuscripts utilising or advancing evidence-based methods in the toxicological and human environmental health sciences. It is the official journal of the Evidence-Based Toxicology Collaboration. Journals adhering to this policy recommend 1) the resources listed directly within this record, and 2) all resources listed in this record's parent policies (see the \"extends\" relationship). "@en;
+        dc:description  "Data policy and author guidance for Evidence-Based Toxicology by Taylor & Francis. Evidence-Based Toxicology is a gold open-access journal that publishes manuscripts utilising or advancing evidence-based methods in the toxicological and human environmental health sciences. It is the official journal of the Evidence-Based Toxicology Collaboration. This journal recommends 1) the resources listed directly within this record, and 2) all resources listed in this record's parent policies (see the \"extends\" relationship). "@en;
         dc:source       <https://fairsharing.org/>;
         foaf:page       <https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=tebt20> .
+
+<https://fairsharing.org/fairsharing_records/5435>
+        rdf:type        sbd:Database;
+        rdfs:label      "Bio-Pesticides DataBase"@en;
+        dc:description  "The BioPesticide DataBase (BPDB) is a comprehensive relational database of data relating to pesticides derived from natural substances."@en;
+        dc:source       <https://fairsharing.org/>;
+        foaf:page       <https://sitem.herts.ac.uk/aeru/bpdb/atoz.htm> .
 
 <https://fairsharing.org/10.25504/FAIRsharing.dt7hn8>
         rdf:type        sbd:Database;
@@ -182,7 +211,7 @@
 <https://fairsharing.org/fairsharing_records/3496>
         rdf:type        sbd:Database;
         rdfs:label      "ELIXIR Toxicology Community"@en;
-        dc:description  "Collection of FAIR resources related to Toxicology."@en;
+        dc:description  "This collection describes those standards, databases, and policies that the ELIXIR Toxicology Community, a collaborative network of experts in the field of toxicology, has carefully selected and curated. Utilisation of this collection gives access to a comprehensive set of resources for discovering and evaluating databases, annotating data and knowledge, adhering to regulatory standards, and staying up-to-date with the latest advancements in toxicological research. The collection undergoes continuous review and curation, with additions as required to cover resources relevant to the field of toxicology and risk assessment."@en;
         dc:source       <https://fairsharing.org/>;
         foaf:page       <https://elixir-europe.org/communities/toxicology> .
 
