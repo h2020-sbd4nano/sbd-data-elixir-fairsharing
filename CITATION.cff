@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Willighagen
+    given-names: Egon
+    orcid: https://orcid.org/0000-0001-7542-0286
+  - family-names: Martens
+    given-names: Marvin
+title: SbD4Nano ELIXIR FAIRsharing plugin
+url: "https://github.com/h2020-sbd4nano/sbd-data-elixir-fairsharing"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Bonatto Minella
+      given-names: Christian
+    - family-names: Willighagen
+      given-names: Egon
+    - family-names: Martens
+      given-names: Marvin
+    - family-names: Lister
+      given-names: Allyson
+    - family-names: Granell
+      given-names: Ramon
+  title: "The ELIXIR Toxicology Community Collection of FAIR-enabling standards and data resources"
+  year: 2025
+  month: 4
+  day: 28
+  journal: Zenodo
+  doi: 10.5281/zenodo.15297863
+  url: https://doi.org/10.5281/zenodo.15297863
