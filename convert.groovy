@@ -2,8 +2,8 @@
 //
 // GPL v3
 
-@Grab(group='io.github.egonw.bacting', module='managers-rdf', version='1.0.0')
-@Grab(group='io.github.egonw.bacting', module='managers-ui', version='1.0.0')
+@Grab(group='io.github.egonw.bacting', module='managers-rdf', version='1.0.5')
+@Grab(group='io.github.egonw.bacting', module='managers-ui', version='1.0.5')
 
 import groovy.json.JsonSlurper
 
