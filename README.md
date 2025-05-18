@@ -46,3 +46,4 @@ groovy convert.groovy > toxicology.ttl
 
 * Sansone, SA., McQuilton, P., Rocca-Serra, P. et al. FAIRsharing as a community approach to standards, repositories and policies. Nat Biotechnol 37, 358–367 (2019). [https://doi.org/10.1038/s41587-019-0080-8](https://doi.org/10.1038/s41587-019-0080-8)
 * Martens, M. et al. ELIXIR and Toxicology: a community in development. F1000Research 10(ELIXIR):1129 (2023). [https://doi.org/10.12688/f1000research.74502.2](https://doi.org/10.12688/f1000research.74502.2)
+* Bonatto Minella, C., Willighagen, E., Martens, M., Lister, A., & Granell, R. (2025, April 28). The ELIXIR Toxicology Community Collection of FAIR-enabling standards and data resources. Zenodo. [https://doi.org/10.5281/zenodo.15297863](https://doi.org/10.5281/zenodo.15297863)
